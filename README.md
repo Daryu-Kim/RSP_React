@@ -1,3 +1,3 @@
 # RSP_React
-npm <br>
+npm install <br>
 npm start
