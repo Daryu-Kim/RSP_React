@@ -1,0 +1,50 @@
+@import "../_variabled.css";
+@import "../font.css";
+@import "../reset.css";
+
+.wrapper {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.result-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 10rem;
+    margin: 2.4rem 0;
+}
+
+hr {
+    margin: auto;
+    width: 2px;
+    height: 100%;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+
+.my, .com {
+    text-align: center;
+}
+
+.my-img,
+.com-img {
+    margin-top: 0.8rem;
+    height: 70%;
+}
+
+.retry {
+    width: fit-content;
+    margin: auto;
+    background-color: #101010;
+    color: white;
+    border-radius: 100rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: 0.4rem 1.6rem;
+    cursor: pointer;
+}
